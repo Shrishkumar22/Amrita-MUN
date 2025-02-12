@@ -4,7 +4,7 @@ export function Footer() {
       <div className="container px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-bold mb-4">MUN Club</h3>
+            <h3 className="text-lg font-bold mb-4">Amrita Model United Nations Society</h3>
             <p className="text-gray-400">
               Empowering future diplomats through Model United Nations conferences and debates.
             </p>
@@ -37,9 +37,8 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>Email: info@munclub.com</li>
-              <li>Phone: (123) 456-7890</li>
-              <li>Address: 123 University Ave</li>
+              <li>Email: mun@cb.amrita.edu</li>
+              <li>Address:Amrita Model United Nations Society, Amrita Vishwa Vidyapeetham Amritanagar Coimbatore - 641 112 Tamil Nadu, India</li>
             </ul>
           </div>
           <div>
@@ -58,7 +57,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} MUN Club. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Amrita Model United Nations Society. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -8,7 +8,7 @@ import type React from "react" // Added import for React
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "MUN Club",
+  title: "Amrita Model United Nations Society",
   description: "Model United Nations Club Website",
 }
 

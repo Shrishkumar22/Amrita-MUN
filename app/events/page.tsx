@@ -40,7 +40,7 @@ export default function Events() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h1 className="text-5xl font-bold text-gray-900 mb-4">Upcoming Events</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-4">Events</h1>
           <p className="text-xl text-gray-600">Join us in our upcoming Model UN events and activities</p>
         </motion.div>
 

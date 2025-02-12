@@ -1,11 +1,11 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { MapPin, Mail, Phone } from "lucide-react"
+// import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+// import { Button } from "@/components/ui/button"
+// import { Input } from "@/components/ui/input"
+// import { Textarea } from "@/components/ui/textarea"
+// import { MapPin, Mail } from "lucide-react"
 
 export default function Contact() {
   return (
@@ -21,7 +21,7 @@ export default function Contact() {
           <p className="text-xl text-gray-600">Get in touch with our team</p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
             <Card className="overflow-hidden">
               <CardHeader className="bg-gradient-to-r from-un-blue to-blue-600 text-white">
@@ -76,49 +76,27 @@ export default function Contact() {
                   <MapPin className="w-6 h-6 text-un-blue mt-1" />
                   <div>
                     <h3 className="font-medium">Address</h3>
-                    <p className="text-gray-600">123 University Avenue, Campus Main Building</p>
+                    <p className="text-gray-600">Amrita Model United Nations Society,
+                              Amrita Vishwa Vidyapeetham
+
+                              Amritanagar
+                              Coimbatore - 641 112
+
+                              Tamil Nadu, India
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Mail className="w-6 h-6 text-un-blue mt-1" />
                   <div>
                     <h3 className="font-medium">Email</h3>
-                    <p className="text-gray-600">contact@munclub.com</p>
+                    <p className="text-gray-600">mun@cb.amrita.edu</p>
                   </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <Phone className="w-6 h-6 text-un-blue mt-1" />
-                  <div>
-                    <h3 className="font-medium">Phone</h3>
-                    <p className="text-gray-600">+1 (123) 456-7890</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden">
-              <CardHeader className="bg-gradient-to-r from-un-blue to-blue-600 text-white">
-                <CardTitle>Office Hours</CardTitle>
-              </CardHeader>
-              <CardContent className="p-6">
-                <div className="space-y-2">
-                  <p className="flex justify-between">
-                    <span className="text-gray-600">Monday - Friday</span>
-                    <span>9:00 AM - 5:00 PM</span>
-                  </p>
-                  <p className="flex justify-between">
-                    <span className="text-gray-600">Saturday</span>
-                    <span>10:00 AM - 2:00 PM</span>
-                  </p>
-                  <p className="flex justify-between">
-                    <span className="text-gray-600">Sunday</span>
-                    <span>Closed</span>
-                  </p>
                 </div>
               </CardContent>
             </Card>
           </motion.div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

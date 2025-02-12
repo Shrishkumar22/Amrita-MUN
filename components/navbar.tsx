@@ -5,12 +5,13 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { motion } from "framer-motion"
 import { Menu, X } from "lucide-react"
+import Image from 'next/image';
 
 const links = [
   { href: "/", label: "Home" },
   { href: "/achievements", label: "Achievements" },
-  { href: "/events", label: "Events" },
-  { href: "/team", label: "Team" },
+  // { href: "/events", label: "Events" },
+  // { href: "/team", label: "Team" },
   { href: "/contact", label: "Contact" },
 ]
 
@@ -23,12 +24,14 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-2">
-            <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-iDkJXSEWc5UD03KSEVVJcRYB46sn2e.png"
-              alt="MUN Logo"
-              className="h-8 w-8"
-            />
-            <span className="font-bold text-xl text-un-blue">MUN Club</span>
+          <Image 
+        src="/images/munlogo.png" 
+        alt="MUN Logo" 
+        width={40}  // Adjust width and height according to your design
+        height={40} 
+        priority  // Ensures faster LCP
+      />
+            <span className="font-bold text-xl text-un-blue">Amrita Model United Nations Society</span>
           </Link>
 
           {/* Desktop Navigation */}
