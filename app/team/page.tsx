@@ -10,7 +10,7 @@ const teamSections = [
     title: "Convenors",
     members: [
       { name: "Dr. Ritwik M.", role: "Convenor", image: "/images/ritwik_sir.jpg" },
-      { name: "Ramaguru Radhakrishnan", role: "Convenor", image: "/images/ramaguru_sir.jpg" },
+      { name: "Ramaguru Radhakrishnan", role: "Convenor", image: "/images/ramaguru_sir.png" },
     ],
   },
   {
