@@ -37,12 +37,12 @@ export default function Home() {
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
-              {/* <Button asChild variant="outline" className="h-12 px-8 border-un-blue text-un-blue hover:bg-blue-50">
+              <Button asChild variant="outline" className="h-12 px-8 border-un-blue text-un-blue hover:bg-blue-50">
                 <Link href="/events">
                   View Events
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
-              </Button> */}
+              </Button>
             </div>
           </motion.div>
 
@@ -123,7 +123,7 @@ export default function Home() {
             <FeatureCard
               icon={<Award className="w-8 h-8 text-un-blue" />}
               title="Competitive Excellence"
-              description="Compete in regional and national conferences with our award-winning coaching team"
+              description="Compete in regional and national conferences with our award-winning team"
             />
           </motion.div>
         </div>
@@ -140,7 +140,7 @@ export default function Home() {
             className="space-y-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900">
-              Importance of MUN at Amrita University
+              Importance of MUN at Amrita Vishwa Vidyapeetham
             </h2>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto">
               Amrita Vishwa Vidyapeetham has always exemplified a profound commitment to fostering socially aware and
@@ -195,7 +195,7 @@ export default function Home() {
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div className="space-y-6">
-                <h3 className="text-2xl font-semibold text-gray-900">For Amrita University</h3>
+                <h3 className="text-2xl font-semibold text-gray-900">For Amrita Vishwa Vidyapeetham</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <Lightbulb className="w-6 h-6 text-un-blue mr-2 flex-shrink-0 mt-1" />

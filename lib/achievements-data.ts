@@ -20,7 +20,7 @@ export const achievements: Achievement[] = [
     ],
   },
   {
-    conference: "A-MUN",
+    conference: "Amrita-MUN",
     year: 2024,
     awards: [
       { delegate: "Khushi Kapil", award: "High Commendation", committee: "AIPPM" },

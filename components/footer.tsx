@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Linkedin, Instagram } from "lucide-react"
 
 export function Footer() {
   return (
@@ -50,14 +51,23 @@ export function Footer() {
               </li>
             </ul>
           </div>
-          {/* <div>
+          <div>
             <h3 className="text-lg font-bold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">Twitter</a>
-              <a href="#" className="text-gray-400 hover:text-white">LinkedIn</a>
-              <a href="#" className="text-gray-400 hover:text-white">Instagram</a>
+              {/* <a href="#" className="text-gray-400 hover:text-white">Twitter</a> */}
+              <a
+                      href="https://www.linkedin.com/company/a-munso/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-600 hover:text-un-blue transition-colors"
+                    >
+                      <Linkedin className="w-5 h-5" />
+                    </a>
+                    <a href="https://www.instagram.com/amunso.amrita?utm_source=qr&igsh=MzdxNDd6ajE2YzM=" className="text-gray-600 hover:text-un-blue transition-colors">
+                      <Instagram className="w-5 h-5" />
+                    </a>
             </div>
-          </div> */}
+          </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; {new Date().getFullYear()} Amrita Model United Nations Society. All rights reserved.</p>
