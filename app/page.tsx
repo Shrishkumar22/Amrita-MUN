@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Globe, Users, Award, BookOpen, Lightbulb, Briefcase } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -36,24 +37,30 @@ export default function Home() {
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" className="h-12 px-8 border-un-blue text-un-blue hover:bg-blue-50">
+              {/* <Button asChild variant="outline" className="h-12 px-8 border-un-blue text-un-blue hover:bg-blue-50">
                 <Link href="/events">
                   View Events
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
-              </Button>
+              </Button> */}
             </div>
           </motion.div>
 
           {/* Decorative Background Element */}
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 0.15 }}
-            transition={{ duration: 1.5 }}
-            className="absolute inset-0 -z-0 flex items-center justify-center"
-          >
-            <Globe className="w-[40%] h-[40%] text-un-blue/20 stroke-[0.5]" />
-          </motion.div>
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 0.5 }}
+              transition={{ duration: 1.5 }}
+              className="absolute inset-0 -z-0 flex items-center justify-center"
+            >
+              <Image 
+                src="/images/munlogo.png" // Image path
+                alt="MUN Logo"
+                width={800} // Adjust width as needed
+                height={800} // Adjust height as needed
+                className="w-[60%] h-[60%] object-contain opacity-40 brightness-110 contrast-125"
+              />
+            </motion.div>
         </div>
       </section>
 
