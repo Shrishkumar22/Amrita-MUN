@@ -6,27 +6,27 @@ import { Calendar, MapPin, Clock } from "lucide-react"
 
 const events = [
   {
-    title: "Annual MUN Conference 2024",
-    date: "March 15-17, 2024",
-    location: "Main Campus Auditorium",
+    title: "Minutes of Meeting",
+    date: "20thSeptember 2024",
+    location: "Sandeepani Hall (AB2)",
     description:
-      "Our flagship Model United Nations conference featuring multiple committees and international participation.",
-    time: "9:00 AM - 6:00 PM",
+      "The primary agenda of this meeting is to introduce the new members of the club and introduce the newly appointed Core Team to all the club members.",
+    time:"4:30 PM",
   },
   {
-    title: "Delegate Training Workshop",
-    date: "February 28, 2024",
-    location: "Conference Room B",
+    title: "Kumaraguru College Of Technology MUN’24",
+    date: "27th to 29th September , 2024",
+    location: "KCT,Coimbatore",
     description:
-      "Intensive training session for new delegates covering MUN procedures, research methods, and public speaking.",
-    time: "2:00 PM - 5:00 PM",
+      "The objective of this Model United Nations conference was to provide our club members with comprehensive exposure to the world of MUN and to establish ourselves as a dedicated MUN society.",
   },
   {
-    title: "Mock Session: Security Council",
-    date: "February 10, 2024",
-    location: "Seminar Hall",
-    description: "Practice session simulating UN Security Council procedures and debates.",
-    time: "10:00 AM - 4:00 PM",
+    title: "MUN OF THRONES",
+    date: "17th October 2024",
+    location: "E-103A (AB-1)",
+    description:
+      "To facilitate swift and reflexive decision-making among participants by presenting them with a hypothetical unstable political scenario accompanied by live updates, designed to stimulate their critical thinking and analytical skills.",
+    time: "9:00 AM",
   },
 ]
 

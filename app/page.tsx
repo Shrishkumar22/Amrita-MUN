@@ -269,10 +269,10 @@ export default function Home() {
               - just curiosity and enthusiasm.
             </p>
             <Button asChild size="lg" className="bg-white text-un-blue hover:bg-blue-50 hover:text-blue-700 h-14 px-10">
-              {/* <Link href="/contact">
+              <Link href="/contact">
                 Join Our Delegation
                 <ArrowRight className="ml-3 h-4 w-4" />
-              </Link> */}
+              </Link>
             </Button>
           </motion.div>
         </div>
