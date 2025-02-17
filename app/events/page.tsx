@@ -6,12 +6,11 @@ import { Calendar, MapPin, Clock } from "lucide-react"
 
 const events = [
   {
-    title: "Minutes of Meeting",
-    date: "20thSeptember 2024",
-    location: "Sandeepani Hall (AB2)",
+    title: "The Amrita-MUN’24 conference",
+    date: "19th to 21st July 2024",
+    location: "Amrita Vishwa Vidyapeetham, Coimbatore",
     description:
-      "The primary agenda of this meeting is to introduce the new members of the club and introduce the newly appointed Core Team to all the club members.",
-    time:"4:30 PM",
+      "It marked the university’s inaugural Model United Nations event, attracting over 200 delegates from 15+ institutions. Organized by the Amrita - Model United Nations Society (A-MUNSO), the conference featured five committees - UNSC, UNCTAD, UNHCR, AIPPM and Arab League, tackling critical global issues, along with IPC. Highlights included engaging debates, cultural programs by Natyasudha and Raagasudha clubs, and an impactful valedictory ceremony. Amrita students excelled, winning 12 awards and the Runner-Up Delegation title, with SSN-SNUC earning Best Delegation. Widely appreciated for fostering MUN culture, the event set a strong foundation for future conferences at Amrita.",
   },
   {
     title: "Kumaraguru College Of Technology MUN’24",
@@ -63,20 +62,23 @@ export default function Events() {
                   <CardTitle>{event.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 space-y-4">
-                  <div className="flex items-center gap-2 text-gray-600">
-                    <Calendar className="w-5 h-5 text-un-blue" />
-                    <span>{event.date}</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-gray-600">
-                    <Clock className="w-5 h-5 text-un-blue" />
-                    <span>{event.time}</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-gray-600">
-                    <MapPin className="w-5 h-5 text-un-blue" />
-                    <span>{event.location}</span>
-                  </div>
-                  <p className="text-gray-600">{event.description}</p>
-                </CardContent>
+  <div className="flex items-center gap-2 text-gray-600">
+    <Calendar className="w-5 h-5 text-un-blue" />
+    <span>{event.date}</span>
+  </div>
+  {event.time && (
+    <div className="flex items-center gap-2 text-gray-600">
+      <Clock className="w-5 h-5 text-un-blue" />
+      <span>{event.time}</span>
+    </div>
+  )}
+  <div className="flex items-center gap-2 text-gray-600">
+    <MapPin className="w-5 h-5 text-un-blue" />
+    <span>{event.location}</span>
+  </div>
+  <p className="text-gray-600">{event.description}</p>
+</CardContent>
+
               </Card>
             </motion.div>
           ))}
