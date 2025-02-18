@@ -76,5 +76,21 @@ export const achievements: Achievement[] = [
       { delegate: "Adithya Anish Nair", award: "Verbal Mention", committee: "DISEC" },
     ],
   },
+  {
+    conference: "VIT-Vellore",
+    year: 2024,
+    awards: [
+      { delegate: "Sanjay AR", award: "Honourable Mention", committee: "UNSC" },
+      { delegate: "Navanith Sampath Kumar", award: "Special Mention", committee: "AIPPM" },
+    ],
+  },
+  {
+    conference: "SRM-MUN",
+    year: 2024,
+    awards: [
+      { delegate: "Sanjay AR", award: "Special Mention", committee: "Lok Sabha" },
+      { delegate: "Navanith Sampath Kumar", award: "Verbal Mention", committee: "Lok Sabha" },
+    ],
+  },
 ]
 
